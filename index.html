@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="logo">Portfolio</div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Hi this is, Abdul Nawfal</h1><br>
+            <h2 class="hero-subtitle">UI/UX Designer & Web Developer</h2>
+        <p class="hero-description">
+            I enjoy the balance between design and development. Designing allows me to think creatively 
+            and solve user problems, while development lets me turn those ideas into reality. 
+            Together, they enable me to deliver end-to-end solutions that are both beautiful and functional.
+        </p>
+            <a href="#projects" class="hero-button">View My Work</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="about-title">About Me</h2>
+            <p class="about-text">
+                I'm a passionate UI/UX designer dedicated to crafting intuitive and visually compelling user experiences.  
+                My focus is on user-centered design, ensuring that every interface is both aesthetically pleasing and highly functional.  
+                By blending creativity with usability principles, I strive to create seamless and engaging digital interactions.
+            </p>
+            <p class="about-text">
+                My expertise includes front-end technologies like HTML, CSS, JavaScript, and modern frameworks. 
+                I'm always learning and pushing myself to stay ahead in the industry.
+            </p>
+            <a href="resume.pdf" class="resume-button" download>Download Resume</a>
+        </div>
+    </section>
+    
+    <section class="projects" id="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="project-container">
+            <!-- First Row (Bottom-to-Top Animation) -->
+            <div class="project-card bottom-top">
+                <img src="project1.jpg" alt="Project 1">
+                <div class="project-info">
+                    <h3>Vendor Management Platform App</h3>
+                    <p>Track the vendors using Mobile App Design.</p>
+                    <a href="https://www.figma.com" class="project-link">View <span>→</span></a>
+                </div>
+            </div>
+    
+            <div class="project-card bottom-top">
+                <img src="project2.jpg" alt="Project 2">
+                <div class="project-info">
+                    <h3>Product Website</h3>
+                    <p>Clean and modern product website design our company.</p>
+                    <a href="https://motiff.com" class="project-link">View <span>→</span></a>
+                </div>
+            </div>
+    
+            <div class="project-card bottom-top">
+                <img src="project3.jpg" alt="Project 3">
+                <div class="project-info">
+                    <h3>University Web Design</h3>
+                    <p>landing page design for univeristy AI Events.</p>
+                    <a href="#" class="project-link">View <span>→</span></a>
+                </div>
+            </div>
+    
+            <!-- Second Row (Top-to-Bottom Animation) -->
+            <div class="project-card top-bottom">
+                <img src="project4.jpg" alt="Project 4">
+                <div class="project-info">
+                    <h3>Camping Website</h3>
+                    <p>landing page design.</p>
+                    <a href="#" class="project-link">View <span>→</span></a>
+                </div>
+            </div>
+    
+            <div class="project-card top-bottom">
+                <img src="project5.jpg" alt="Project 5">
+                <div class="project-info">
+                    <h3>Industry Website UI</h3>
+                    <p>Minimalist industry website interface.</p>
+                    <a href="#" class="project-link">View <span>→</span></a>
+                </div>
+            </div>
+    
+            <div class="project-card top-bottom">
+                <img src="project6.jpg" alt="Project 6">
+                <div class="project-info">
+                    <h3>Company Logo</h3>
+                    <p>Create a Custom Logo Design our Company.</p>
+                    <a href="#" class="project-link">View <span>→</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <h2 class="section-title">My Skills</h2>
+    
+        <div class="skills-container">
+            <!-- Left: Design Skills -->
+            <div class="skills-column">
+                <h3>Design Skills</h3>
+                <ul>
+                    <li>UI/UX Design</li>
+                    <li>Wireframing</li>
+                    <li>Prototyping</li>
+                    <li>Visual Design</li>
+                    <li>Typography</li>
+                    <li>Branding</li>
+                </ul>
+            </div>
+    
+            <!-- Right: Development Skills -->
+            <div class="skills-column">
+                <h3>Development Skills</h3>
+                <ul>
+                    <li>HTML & CSS</li>
+                    <li>JavaScript</li>
+                    <li>React.js</li>
+                    <li>Git & Github</li>
+                    <li>Vercel</li>
+                    <li>Responsive Design</li>
+                </ul>
+            </div>
+        </div>
+    
+        <!-- Bottom Center: Tools & Software -->
+        <div class="tools-container">
+            <h3>Tools & Software</h3>
+            <div class="tools">
+                <div class="tool" data-icon="figma.png">Figma</div>
+                <div class="tool" data-icon="motiff.png">Motiff AI</div>
+                <div class="tool" data-icon="photoshop.png">Photoshop</div>
+                <div class="tool" data-icon="illustrator.png">Illustrator</div>
+                <div class="tool" data-icon="vscode.png">VS Code</div>
+                <div class="tool" data-icon="wordpress.png">WordPress</div>
+                <div class="tool" data-icon="framer.png">Framer AI</div>
+                <div class="tool" data-icon="webflow.png">Webflow</div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Portfolio Name -->
+            <div class="footer-logo">
+                <h2>Portfolio.</h2>
+            </div>
+    
+            <!-- Navigation Menu -->
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+    
+            <!-- CTA Buttons -->
+            <div class="footer-buttons">
+                <a href="mailto:abdulnawfal11011@gmail.com" class="btn email-btn">
+                    <i class="fas fa-envelope"></i> Email Me
+                </a>
+                <a href="#contact" class="btn hire-btn">
+                    Hire Me <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- FontAwesome for Icons -->
+    <script src="https://kit.fontawesome.com/YOUR-KIT-ID.js" crossorigin="anonymous"></script>
+    
+    
+
+    <script>
+        // Preloader Script
+        window.addEventListener("load", function () {
+            document.querySelector(".preloader").classList.add("hide");
+        });
+        window.addEventListener("load", function () {
+        document.querySelector(".preloader").classList.add("hide");
+
+        // Check if hero-content exists before adding class
+        let heroContent = document.querySelector(".hero-content");
+        if (heroContent) {
+            heroContent.classList.add("show");
+        } else {
+            console.error("Hero section not found!");
+        }
+    });
+    // Smooth Scrolling for Navigation
+document.querySelectorAll("a[href^='#']").forEach(anchor => {
+    anchor.addEventListener("click", function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth"
+        });
+    });
+});
+
+// Show About Section when Scrolled into View
+const aboutSection = document.querySelector(".about-content");
+
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            aboutSection.classList.add("visible");
+        }
+    });
+}, { threshold: 0.3 }); // Trigger when 30% of the section is visible
+
+observer.observe(aboutSection);
+document.addEventListener("DOMContentLoaded", function () {
+    // Select all project cards
+    const projectCards = document.querySelectorAll(".project-card");
+
+    if ("IntersectionObserver" in window) {
+        const observer = new IntersectionObserver(
+            (entries, observer) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add("visible");
+                        observer.unobserve(entry.target); // Stop observing once visible
+                    }
+                });
+            },
+            { threshold: 0.2 } // Trigger when 20% visible
+        );
+
+        projectCards.forEach((card) => {
+            observer.observe(card);
+        });
+    } else {
+        // Fallback for browsers that don't support Intersection Observer
+        projectCards.forEach((card) => {
+            card.classList.add("visible");
+        });
+    }
+});
+document.addEventListener("DOMContentLoaded", function () {
+    // Header Hide on Scroll
+    let lastScrollTop = 0;
+    const header = document.querySelector(".header");
+
+    window.addEventListener("scroll", function () {
+        let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+        if (scrollTop > lastScrollTop) {
+            header.style.transform = "translateY(-100%)"; // Hide header
+        } else {
+            header.style.transform = "translateY(0)"; // Show header
+        }
+        lastScrollTop = scrollTop;
+    });
+
+    // Mobile Menu Toggle
+    const menuToggle = document.querySelector(".menu-toggle");
+    const navMenu = document.querySelector(".nav");
+
+    menuToggle.addEventListener("click", () => {
+        menuToggle.classList.toggle("active");
+        navMenu.classList.toggle("active");
+    });
+
+    // Smooth Scroll Effect
+    const links = document.querySelectorAll(".nav ul li a");
+
+    links.forEach((link) => {
+        link.addEventListener("click", function (e) {
+            e.preventDefault();
+            const targetId = this.getAttribute("href").substring(1);
+            const targetSection = document.getElementById(targetId);
+
+            window.scrollTo({
+                top: targetSection.offsetTop - 70, // Adjust for fixed header
+                behavior: "smooth",
+            });
+
+            // Close menu on click (for mobile)
+            menuToggle.classList.remove("active");
+            navMenu.classList.remove("active");
+        });
+    });
+});
+
+    </script>
+
+</body>
+</html>
